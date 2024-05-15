@@ -14,9 +14,8 @@ class State(rx.State):
 
 def index() -> rx.Component:
     return rx.center(
-        rx.theme_panel(),
         rx.vstack(
-            rx.heading("Welcome to Reflex!", size="9"),
+            rx.heading("Welcome to WaterMix!", size="9"),
             rx.text("Get started by editing ", rx.code(filename)),
             rx.button(
                 "Check out our docs!",
